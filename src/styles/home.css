@@ -1,0 +1,175 @@
+.outer {
+    display: inline;
+}
+
+.main1 {
+    display: flex;
+}
+
+.imgOne>img {
+    height: 220px;
+    width: 750px;
+    padding-left: 30px;
+}
+
+.mtext {
+    padding-left: 20px;
+    height: 220px;
+    width: 750px;
+    display: flex;
+}
+
+.mtext h1 {
+    width: fit-content;
+    block-size: fit-content;
+
+}
+
+.paragraph1 {
+    margin-left: 200px;
+    color: gray;
+    text-align: justify;
+}
+
+.button1 {
+    background-color: black;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 2px;
+    letter-spacing: 4px;
+}
+
+.button1:hover {
+    background-color: burlywood;
+}
+
+.second {
+    color: white;
+    background-color: rgb(10, 10, 48);
+    padding: 20px;
+    height: 380px;
+    width: 260px;
+
+    margin-top: 10px;
+}
+
+.second>h1 {
+    color: orange;
+}
+
+.main2 {
+
+    display: flex;
+    gap: 60px;
+    height: 100px;
+
+}
+
+.inside2 {
+    display: flex;
+}
+
+.img2>img {
+    width: 90px;
+    padding-left: 30px;
+}
+
+.paragraph2 {
+    width: 190px;
+    block-size: fit-content;
+}
+
+.paragraph2 h2 {
+    color: gray;
+    letter-spacing: 2px;
+}
+
+.paragraph2 h5 {
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding-left: 0px;
+}
+
+a:hover {
+    color: orange;
+}
+
+.paragraph2 a {
+    color: black;
+}
+
+.paragraph2 a:hover {
+    color: rebeccapurple;
+}
+
+
+@media screen and (max-width: 960px) {
+    .outer{
+        display: inline;
+        padding: 0;
+        margin: 0;
+        width: 390px;
+    }
+
+    .main1 {
+        display: inline;
+        width: 390px;
+        
+    }
+
+    .imgOne>img {
+        height: 250px;
+        width: 390px;
+    }
+
+    .mtext {
+        text-align: center;
+        height: 220px;
+        width: 750px;
+        display: inline;
+    }
+
+    .paragraph1 {
+        /* text-align: center; */
+        margin-left: 20px;
+        color: gray;
+        text-align: justify;
+        width: 390px;
+    }
+
+    .second {
+        color: white;
+        background-color: rgb(10, 10, 48);
+        /* padding: 20px; */
+        height: 400px;
+        width: 390px;
+        margin-top: 10px;
+        text-align: justify;
+
+        margin-left: 20px;
+    }
+
+    .main2 {
+
+        display: inline;
+        gap: 60px;
+        height: 100px;
+
+        margin-left: 2px;
+    
+    }
+
+
+}
